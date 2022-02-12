@@ -4,9 +4,9 @@ const email = document.getElementById("email");
 const password = document.getElementById("password");
 const btnSubmit = document.getElementById("btn-submit");
 const btnCancel = document.getElementById("btn-cancel");
-const valUserName = document.getElementById("valid-username");
-const valEmail = document.getElementById("valid-email");
-const valPassword = document.getElementById("valid-password");
+const valUserName = document.getElementById("invalid-username");
+const valEmail = document.getElementById("invalid-email");
+const valPassword = document.getElementById("invalid-password");
 
 btnSubmit.addEventListener('click', (e) => {
     if(username.value === '' || username.value == null) {
